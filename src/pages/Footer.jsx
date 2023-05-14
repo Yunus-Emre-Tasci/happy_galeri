@@ -118,7 +118,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-[1600px] h-[1px] bg-[#333333] absolute bottom-[33px] "></div>
-        <div className="flex absolute left-[583px] bottom-0">
+        <div className="flex absolute left-[583px] bottom-0 top-[250px]">
           <p>Legal Notice</p>
           <p className="ml-[24px]">Privacy policy</p>
           <p className="ml-[24px]">Cookies</p>
