@@ -6,8 +6,25 @@ import Engelli from "../assests/Engelli.png";
 import Kurumsal from "../assests/Kurumsal.png";
 import Sponsor from "../assests/Sponsor.png";
 import ZiyaretOk from "../assests/ZiyaretOk.png"
+import axios from "axios";
+import { useEffect, useState } from "react";
 
 const Podcast = () => {
+
+   const [slidess, setSlidess] = useState([]);
+
+   useEffect(() => {
+     const fetchData = async () => {
+       const data = await axios("https://w3yz.com/api/ch");
+       const data2 = data.data.products.map((i) => i.imagelist[0].url);
+       
+       setSlidess(data2);
+     }
+     fetchData();
+   }, []);
+
+   console.log(slidess);
+
   return (
     <div className="h-[2129px] bg-yellow-500 relative ">
       <div className="bg-gradient-to-br from-gray-300 to-gray-200 w-[1860px] h-[1327px] absolute left-[30px] top-[161px] rounded-xl">
