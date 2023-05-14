@@ -28,19 +28,23 @@ const Podcast = () => {
   return (
     <div className="h-[2129px] bg-yellow-500 relative ">
       <div className="bg-gradient-to-br from-gray-300 to-gray-200 w-[1860px] h-[1327px] absolute left-[30px] top-[161px] rounded-xl">
-        <div>
+        <div className="px-[110px] py-[120px] ">
           <div>
             <div>
-              <h3>Podcast</h3>
-              <p>
-                bu muhteşem müzede keşfedilecek o kadar çok sanat eseri var ki!
+              <h3 className="font-extralight font-manrope text-[60px] leading-[82px]">
+                Podcast
+              </h3>
+              <p className="font-extralight font-manrope text-[30px] leading-[41px] capitalize w-[705px] mt-[8px]">
+                Bu muhteşem müzede keşfedilecek o kadar çok sanat eseri var ki!
                 Bu yüzden en iyi şekilde .
               </p>
-              <p>
+              <p className="font-normal font-nunito w-[568px] text-[16px] text-[#808080] leading-[150%] mt-[31px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna.
               </p>
-              <p>SPOTİFAY</p>
+              <p className="font-normal font-nunito w-[568px] text-[16px] text-[#808080] leading-[150%] mt-[118px]">
+                SPOTİFAY
+              </p>
             </div>
             <div className="flex">
               <div>
