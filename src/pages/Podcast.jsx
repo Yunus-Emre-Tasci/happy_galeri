@@ -92,17 +92,17 @@ const Podcast = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between absolute top-[1578px] right-[168px] left-[140px]">
-        <div className="flex flex-col items-center justify-center ">
+      <div className="flex justify-between absolute top-[1578px]  left-[140px]">
+        <div className="flex flex-col justify-center ">
           <h2 className="text-[60px] font-extralight font-manrope leading-[82px] w-[511px]">
             Ziyaret Biçimini Seç
           </h2>
-          <p className="text-[30px] font-extralight leading-[41px] font-manrope">
+          <p className="text-[30px] w-[705px] font-extralight leading-[41px] font-manrope">
             Bu Muhteşem Müzeyi Nasıl Keşfetmek İstersin?
           </p>
         </div>
-        <div className="flex flex-wrap  ml-[200px] min-w-[788px] min-h-[379px] gx-[8px] ">
-          <div className="flex w-[390px] h-[114px] justify-around items-center">
+        <div className="flex-end flex flex-wrap  ml-[120px] min-w-[788px] min-h-[379px]  ">
+          <div className="flex w-[390px] h-[114px] justify-between px-[40px] py-[45px] items-center">
             <div className="flex items-center">
               <img className="w-[42px] h-[38px] " src={Aile} alt="" />
               <p className="font-roboto text-[16px] font-normal leading-[25px] ml-[23px]">
@@ -111,7 +111,7 @@ const Podcast = () => {
             </div>
             <img className="w-[9px] h-[15px]   " src={ZiyaretOk} alt="" />
           </div>
-          <div className="flex w-[390px] h-[114px] justify-around items-center">
+          <div className="flex w-[390px] h-[114px] justify-between px-[40px] py-[45px] items-center">
             <div className="flex items-center">
               <img className="w-[31px] h-[42px] " src={Engelli} alt="" />
               <p className="font-roboto text-[16px] font-normal leading-[25px] ml-[23px]">
@@ -120,7 +120,7 @@ const Podcast = () => {
             </div>
             <img className="w-[9px] h-[15px]  " src={ZiyaretOk} alt="" />
           </div>
-          <div className="flex w-[390px] h-[114px] justify-around items-center">
+          <div className="flex w-[390px] h-[114px] justify-between px-[40px] py-[45px] items-center">
             <div className="flex items-center">
               <img className="w-[39px] h-[45px] " src={Grup} alt="" />
               <p className="font-roboto text-[16px] font-normal leading-[25px] ml-[23px]">
@@ -129,7 +129,7 @@ const Podcast = () => {
             </div>
             <img className="w-[9px] h-[15px]  " src={ZiyaretOk} alt="" />
           </div>
-          <div className="flex w-[390px] h-[114px] justify-around items-center">
+          <div className="flex w-[390px] h-[114px] justify-between px-[40px] py-[45px] items-center">
             <div className="flex items-center">
               <img className="w-[36px] h-[45px] " src={Kurumsal} alt="" />
               <p className="font-roboto text-[16px] font-normal leading-[25px] ml-[23px]">
@@ -138,7 +138,7 @@ const Podcast = () => {
             </div>
             <img className="w-[9px] h-[15px]  " src={ZiyaretOk} alt="" />
           </div>
-          <div className="flex w-[390px] h-[114px] justify-around items-center">
+          <div className="flex w-[390px] h-[114px] justify-between px-[40px] py-[45px] items-center">
             <div className="flex items-center">
               <img className="w-[40px] h-[44px] " src={Arastirma} alt="" />
               <p className="font-roboto text-[16px] font-normal leading-[25px] ml-[23px]">
@@ -147,7 +147,7 @@ const Podcast = () => {
             </div>
             <img className="w-[9px] h-[15px]  " src={ZiyaretOk} alt="" />
           </div>
-          <div className="flex w-[390px] h-[114px] justify-around items-center">
+          <div className="flex w-[390px] h-[114px] justify-between px-[40px] py-[45px] items-center">
             <div className="flex items-center">
               <img className="w-[30px] h-[45px] " src={Sponsor} alt="" />
               <p className="font-roboto text-[16px] font-normal leading-[25px] ml-[23px]">
