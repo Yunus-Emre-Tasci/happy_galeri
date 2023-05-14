@@ -11,26 +11,28 @@ import { useEffect, useState } from "react";
 
 const Podcast = () => {
 
-   const [slidess, setSlidess] = useState([]);
+   const [slides, setSlides] = useState([]);
 
    useEffect(() => {
      const fetchData = async () => {
        const data = await axios("https://w3yz.com/api/ch");
        const data2 = data.data.products.map((i) => i.imagelist[0].url);
        
-       setSlidess(data2);
+       setSlides(data2);
      }
      fetchData();
    }, []);
 
-   console.log(slidess);
+   console.log(slides);
+
+   const selectedSlides = [slides[2], slides[1], slides[9], slides[0]];
 
   return (
     <div className="h-[2129px] bg-yellow-500 relative ">
-      <div className="bg-gradient-to-br from-gray-300 to-gray-200 w-[1860px] h-[1327px] absolute left-[30px] top-[161px] rounded-xl">
+      <div className="bg-gradient-to-br from-gray-300 to-gray-200 w-[1860px] h-[1327px] absolute left-[30px] top-[161px] rounded-[40px]">
         <div className="px-[110px] py-[120px] ">
           <div>
-            <div>
+            <div className="mt-[72px]">
               <h3 className="font-extralight font-manrope text-[60px] leading-[82px]">
                 Podcast
               </h3>
@@ -47,7 +49,31 @@ const Podcast = () => {
               </p>
             </div>
             <div className="flex">
-              <div>
+              <div className="absolute w-[184px] h-[173px] left-[970px] top-[120px] ">
+                <img className="w-full h-full" src={slides[6]} alt="" />
+              </div>
+              <div className="absolute w-[185px] h-[349px] left-[970px] top-[323px] ">
+                <img className="w-full h-full" src={slides[3]} alt="" />
+              </div>
+              <div className="absolute w-[184px] h-[360px] left-[1168px] top-[123px] ">
+                <img className="w-full h-full" src={slides[7]} alt="" />
+              </div>
+              <div className="absolute w-[184px] h-[173px] left-[1179px] top-[499px] ">
+                <img className="w-full h-full" src={slides[6]} alt="" />
+              </div>
+              <div className="absolute w-[383px] h-[173px] left-[1366px] top-[123px] ">
+                <img className="w-full h-full" src={slides[9]} alt="" />
+              </div>
+              <div className="absolute w-[184px] h-[173px] left-[1366px] top-[312px] ">
+                <img className="w-full h-full" src={slides[8]} alt="" />
+              </div>
+              <div className="absolute w-[184px] h-[173px] left-[1564px] top-[309px] ">
+                <img className="w-full h-full" src={slides[8]} alt="" />
+              </div>
+              <div className="absolute w-[383px] h-[173px] left-[1366px] top-[498px] ">
+                <img className="w-full h-full" src={slides[4]} alt="" />
+              </div>
+              {/* <div>
                 <img src="" alt="" />
                 <img src="" alt="" />
               </div>
@@ -66,21 +92,25 @@ const Podcast = () => {
                 <div>
                   <img src="" alt="" />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
-          <div className="flex">
-            <div className="relative w-[386px] h-[486px] text-white">
-              <img className="w-full h-full" src={european1} alt="" />
-              <div className="absolute top-2 left-1">
-                <h4>EUROPEAN</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna.
-                </p>
+          <div className="absolute left-[110px] top-[721px] flex w-[1640px] h-[486px] gap-x-[33px]">
+            {selectedSlides.slice(0, 4).map((slide, i) => (
+              <div key={i} className="relative w-[386px] h-[486px] text-white">
+                <img className="w-full h-full" src={slide} alt="" />
+                <div className="absolute top-2 left-1">
+                  <h4 className="ml-[21px] mt-[40px] font-medium font-nunito text-[24px] leading-[33px] tracking-[4%]">
+                    EUROPEAN
+                  </h4>
+                  <p className="w-[340px] ml-[21px] mt-[301px] font-normal font-nunito text-[16px] leading-[150%]">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div>
+            ))}
+            {/* <div>
               <img src="" alt="" />
               <div>
                 <h4>EUROPEAN</h4>
@@ -109,7 +139,7 @@ const Podcast = () => {
                   do eiusmod tempor incididunt ut labore et dolore magna.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
