@@ -92,48 +92,48 @@ const Podcast = () => {
           <h2>Ziyaret Biçimini Seç</h2>
           <p>Bu Muhteşem Müzeyi Nasıl Keşfetmek İstersin?</p>
         </div>
-        <div className="flex justify-center items-center flex-wrap mt-[90px] mr-[168px] ml-[140px] min-w-[788px] min-h-[379px]">
-          <div className="flex w-[390px] h-[114px]">
+        <div className="flex justify-center items-center flex-wrap mt-[90px] mr-[168px] ml-[140px] min-w-[788px] min-h-[379px] gx-[8px] ">
+          <div className="flex w-[390px] h-[114px] justify-around">
             <div className="flex">
-              <img src={Aile} alt="" />
+              <img className="w-[42px] h-[38px] " src={Aile} alt="" />
               <p>Aile ile ziyaret</p>
             </div>
-            <img src={ZiyaretOk} alt="" />
+            <img className="w-[9px] h-[15px] " src={ZiyaretOk} alt="" />
           </div>
-          <div className="flex w-[390px] h-[114px] ">
+          <div className="flex w-[390px] h-[114px] justify-around">
             <div className="flex">
-              <img src={Aile} alt="" />
+              <img className="w-[42px] h-[38px] " src={Aile} alt="" />
               <p>Aile ile ziyaret</p>
             </div>
-            <img src={ZiyaretOk} alt="" />
+            <img className="w-[9px] h-[15px] " src={ZiyaretOk} alt="" />
           </div>
-          <div className="flex w-[390px] h-[114px] ">
+          <div className="flex w-[390px] h-[114px] justify-around">
             <div className="flex">
-              <img src={Aile} alt="" />
+              <img className="w-[42px] h-[38px] " src={Aile} alt="" />
               <p>Aile ile ziyaret</p>
             </div>
-            <img src={ZiyaretOk} alt="" />
+            <img className="w-[9px] h-[15px] " src={ZiyaretOk} alt="" />
           </div>
-          <div className="flex w-[390px] h-[114px] ">
+          <div className="flex w-[390px] h-[114px] justify-around">
             <div className="flex">
-              <img src={Aile} alt="" />
+              <img className="w-[42px] h-[38px] " src={Aile} alt="" />
               <p>Aile ile ziyaret</p>
             </div>
-            <img src={ZiyaretOk} alt="" />
+            <img className="w-[9px] h-[15px] " src={ZiyaretOk} alt="" />
           </div>
-          <div className="flex w-[390px] h-[114px] ">
+          <div className="flex w-[390px] h-[114px] justify-around">
             <div className="flex">
-              <img src={Aile} alt="" />
+              <img className="w-[42px] h-[38px] " src={Aile} alt="" />
               <p>Aile ile ziyaret</p>
             </div>
-            <img src={ZiyaretOk} alt="" />
+            <img className="w-[9px] h-[15px] " src={ZiyaretOk} alt="" />
           </div>
-          <div className="flex w-[390px] h-[114px] ">
+          <div className="flex w-[390px] h-[114px] justify-around">
             <div className="flex">
-              <img src={Aile} alt="" />
+              <img className="w-[42px] h-[38px] " src={Aile} alt="" />
               <p>Aile ile ziyaret</p>
             </div>
-            <img src={ZiyaretOk} alt="" />
+            <img className="w-[9px] h-[15px] " src={ZiyaretOk} alt="" />
           </div>
         </div>
       </div>
