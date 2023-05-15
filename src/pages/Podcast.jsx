@@ -28,7 +28,7 @@ const Podcast = () => {
    const selectedSlides = [slides[2], slides[1], slides[9], slides[0]];
 
   return (
-    <div className="h-[2129px] bg-yellow-500 relative ">
+    <div className="h-[2129px] relative ">
       <div className="bg-gradient-to-br from-gray-300 to-gray-200 w-[1860px] h-[1327px] absolute left-[30px] top-[161px] rounded-[40px]">
         <div className="px-[110px] py-[120px] ">
           <div>
