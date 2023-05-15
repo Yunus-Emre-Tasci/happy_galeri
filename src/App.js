@@ -1,4 +1,3 @@
-import Carousel from './components/Carousel';
 import Navbar from './components/Navbar';
 import Podcast from './pages/Podcast';
 import Footer from './pages/Footer';

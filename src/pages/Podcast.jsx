@@ -1,4 +1,3 @@
-import european1 from "../assests/european1.png"
 import Aile from "../assests/Aile.png"
 import Grup from "../assests/Grup.png";
 import Arastirma from "../assests/Arastirma.png";
