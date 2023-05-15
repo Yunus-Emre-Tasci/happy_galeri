@@ -19,7 +19,6 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div id='transparent' className="absolute left-[140px] top-0 rounded-b-[20px] w-[1640px] h-[820px] "></div>
       <div className=" absolute left-[400px] top-[940px] text-center w-[1119px] ">
         <h2 className="font-manrope text-[60px] leading-[82px] font-extralight capitalize">
           Happy Galeri’ye Hoşgeldiniz

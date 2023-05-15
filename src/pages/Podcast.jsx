@@ -72,26 +72,6 @@ const Podcast = () => {
               <div className="absolute w-[383px] h-[173px] left-[1366px] top-[498px] ">
                 <img className="w-full h-full" src={slides[4]} alt="" />
               </div>
-              {/* <div>
-                <img src="" alt="" />
-                <img src="" alt="" />
-              </div>
-              <div>
-                <img src="" alt="" />
-                <img src="" alt="" />
-              </div>
-              <div>
-                <div>
-                  <img src="" alt="" />
-                </div>
-                <div>
-                  <img src="" alt="" />
-                  <img src="" alt="" />
-                </div>
-                <div>
-                  <img src="" alt="" />
-                </div>
-              </div> */}
             </div>
           </div>
           <div className="absolute left-[110px] top-[721px] flex w-[1640px] h-[486px] gap-x-[33px]">
@@ -109,36 +89,6 @@ const Podcast = () => {
                 </div>
               </div>
             ))}
-            {/* <div>
-              <img src="" alt="" />
-              <div>
-                <h4>EUROPEAN</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna.
-                </p>
-              </div>
-            </div>
-            <div>
-              <img src="" alt="" />
-              <div>
-                <h4>EUROPEAN</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna.
-                </p>
-              </div>
-            </div>
-            <div>
-              <img src="" alt="" />
-              <div>
-                <h4>EUROPEAN</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna.
-                </p>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
