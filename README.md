@@ -3,8 +3,9 @@
 ```
 npm install veya yarn
 ```
-## `Proje MacbookPro 16" -1 e uygun, figma dizaynına Pixel Perfect olacak şekilde hazırlanmıştır.`
-
+```
+Proje Figma dizaynına Pixel Perfect ve MacbookPro 16"-1 'e uygun olacak şekilde hazırlanmıştır.
+```
 ## `Kullanilan Kutuphaneler`
 
 - `react`
